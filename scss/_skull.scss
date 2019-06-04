@@ -1,0 +1,32 @@
+@import 'config';
+
+$white:  rgb(255, 255, 255);
+
+body {
+  background: #2f2f2f;
+  overflow-x: hidden;
+
+  #container {
+    width: 12rem;
+    height: 12rem;
+
+    svg {
+      height: 12rem;
+      margin: auto;
+      display: block;
+
+      path {
+        fill: none;
+        stroke: $white;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+
+        &.st1 {
+          stroke-width: 2;
+        }
+      } 
+    }
+  }
+}
