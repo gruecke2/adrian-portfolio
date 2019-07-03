@@ -26,7 +26,13 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards&display=swap" rel="stylesheet">
 
-    <title>Contact Me</title>
+    <!-- Flickity -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <title>Art Gallery</title>
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   </head>
   <body>
@@ -54,38 +60,67 @@
       </nav>
     </header>
 
-    <main id="art">
-      <h1 class="lg-heading">My <span class="text-secondary">Art</span></h1>
-      <h2 class="sm-heading">View some of my projects</h2>
+    <main>
+        <h1 class="lg-heading">My <span class="text-secondary">Art</span></h1>
 
+      <!-- <div class="grid">
+        <img src="assets/images/skulls/skull1.jpg" alt="skull1" class="grid-item">
+        <img src="assets/images/skulls/skull2.jpg" alt="skull2" class="grid-item">
+        <img src="assets/images/skulls/skull3.jpg" alt="skull3" class="grid-item">
+        <img src="assets/images/skulls/skull4.jpg" alt="skull4" class="grid-item">
+        <img src="assets/images/skulls/skull5.jpg" alt="skull5" class="grid-item">
+        <img src="assets/images/skulls/skull6.jpg" alt="skull6" class="grid-item">
+        <img src="assets/images/skulls/skull7.jpg" alt="skull7" class="grid-item">
+        <img src="assets/images/skulls/skull8.jpg" alt="skull8" class="grid-item">
+        <img src="assets/images/skulls/skull9.jpg" alt="skull9" class="grid-item">
+        <img src="assets/images/skulls/skull10.jpg" alt="skull10" class="grid-item">
+        <img src="assets/images/skulls/skull11.jpg" alt="skull11" class="grid-item">
+      </div> -->
       <div class="carousel">
-        <input id="image1" type="radio" name="image-selector" checked="checked" />
-        <label for="image4">View image 4</label>
-        <img src="http://lorempixel.com/400/300/sports/1" />
-      
-        <input id="image2" type="radio" name="image-selector" />
-        <label for="image1">View image 1</label>
-        <img src="http://lorempixel.com/400/300/sports/2" />
-      
-        <input id="image3" type="radio" name="image-selector" />
-        <label for="image2">View image 2</label>
-        <img src="http://lorempixel.com/400/3
-      00/sports/3" />
-      
-        <input id="image4" type="radio" name="image-selector" />
-        <label for="image3">View image 3</label>
-        <img src="http://lorempixel.com/400/300/sports/4" />
-        
-        <label for="image4">View image 4</label>
-        <label for="image1">View image 1</label>
-      </div>
-
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull1.jpg" alt="skull1" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull2.jpg" alt="skull2.jpg" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull3.jpg" alt="skull3" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull4.jpg" alt="skull4" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull5.jpg" alt="skull5" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull6.jpg" alt="skull6" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull7.jpg" alt="skull7" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull8.jpg" alt="skull8" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull9.jpg" alt="skull9" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull10.jpg" alt="skull10" />
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/images/skulls/skull11.jpg" alt="skull11" />
+          </div>
+          
+        </div>
     </main>
+
+
 
     <footer id="foot">
       Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019
     </footer>
 
+    <script src="assets/js/gridPics.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
