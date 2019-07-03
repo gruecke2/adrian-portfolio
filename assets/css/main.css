@@ -57,7 +57,7 @@
       height: 250px;
       border-radius: 50%;
       border: solid 3px #e4000f;
-      background-image: url("../images/bw_self_portrait_small.jpg");
+      background-image: url("../images/adrian.jpg");
       background-size: cover; }
   .menu .nav-link {
     display: inline-block;
@@ -323,7 +323,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background-image: url("../images/bw_self_portrait_small.jpg");
+      background-image: url("../images/adrian.jpg");
       width: 150px;
       height: 150px; }
   #projectsGrid {
