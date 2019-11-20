@@ -58,13 +58,33 @@
 
     <main id="about">
       <h1 class="lg-heading name-title">About <span class="text-secondary">Me</span></h1>
-      We need to come up with what you want here. :)
+      <div class="container">
+          <div>
+              <button id="langBtn" class="btn secondary"><span id="eng">English</span><span id="esp" class="hidden">Espanol</span></button>
+            </div>
+            <p id="esp-bio">
+              Mi nombre es Adrian Paolo Zamora Hernandez, soy de la ciudad de México, me he dedicado a mi hobby por casi toda mi vida, me encanta, especialmente las cosas de el lado obscuro.
+            </p>
+            <p id="eng-bio" class="hidden">
+                My name is Adrian paolo zamora hernandez, I am from Mexico City. I have dedicated myself to my hobby for almost all my life, I love it, especially the things on the dark side.
+            </p>
+      </div>
     </main>
 
     <footer id="foot">
-      Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2018
+      Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2019
     </footer>
 
     <script src="assets/js/main.js"></script>
+    <script>
+      $('#langBtn').on('click', toggleLang);
+
+      function toggleLang() {
+        $('#esp-bio').toggleClass("hidden");
+        $('#eng-bio').toggleClass("hidden");
+        $('#esp').toggleClass("hidden");
+        $('#eng').toggleClass("hidden");
+      }
+    </script>
   </body>
 </html>

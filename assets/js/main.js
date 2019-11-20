@@ -1,5 +1,4 @@
 
-
 const menuBtn = $(".menu-btn");
 const menu = $(".menu");
 const menuNav = $(".menu-nav");
