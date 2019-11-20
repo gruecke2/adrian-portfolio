@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;;
+}
+
 body{
     @include background();
     background: $primary-color;
